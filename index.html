@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,22 +15,30 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div id="contenido" class="container" >
-      <h1 class="bg-primary">Lista de Tareas:</h1>
-      <input type="text" name="" class="form-control">
-      <ul class="list-unstyled">
-        <li><span><i class='fa fa-trash' aria-hidden='true'></i></span>Tarea 1</li>
-        <li><span><i class='fa fa-trash' aria-hidden='true'></i></span>Tarea 2</li>
-        <li><span><i class='fa fa-trash' aria-hidden='true'></i></span>Tarea 3</li>
-      </ul>
+</head>
+
+<body>
+    <div id="contenido" class="container">
+        <h1 class="bg-primary text-center">Lista de Tareas:</h1>
+        <div class="input-group">
+            <input type="text" id="ingreso" class="form-control" placeholder="Agregar tarea">
+            <div class="input-group-btn">
+                <button class="btn btn-default" id="clearbtn" type="button">
+            <i class="fa fa-times-circle-o " aria-hidden="true"></i>
+          </button>
+            </div>
+        </div>
+        <ul class="list-unstyled">
+            <li><span><i class='fa fa-trash' aria-hidden='true'></i></span>Tarea 1</li>
+            <li><span><i class='fa fa-trash' aria-hidden='true'></i></span>Tarea 2</li>
+            <li><span><i class='fa fa-trash' aria-hidden='true'></i></span>Tarea 3</li>
+        </ul>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="assets/js/ToDoList.js">
-
     </script>
-  </body>
+</body>
+
 </html>
