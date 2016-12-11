@@ -3,3 +3,4 @@
   margin: 0 auto;
   border: 2px solid gray;
 }
+.completado { text-decoration: line-through; color: gray;}
